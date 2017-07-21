@@ -21,14 +21,14 @@
     </description>
     <screenshots>
         <screenshot type="default">
-            <image>https://raw.githubusercontent.com/micahflee/onionshare/master/screenshots/appdata-server.png</image>
+            <image>https://raw.githubusercontent.com/tracychapman/onionshare/master/screenshots/appdata-server.png</image>
             <caption>Sender sharing files with OnionShare</caption>
         </screenshot>
         <screenshot>
-            <image>https://raw.githubusercontent.com/micahflee/onionshare/master/screenshots/appdata-client.png</image>
+            <image>https://raw.githubusercontent.com/tracychapman/onionshare/master/screenshots/appdata-client.png</image>
             <caption>Receiver downloading files with Tor Browser</caption>
         </screenshot>
     </screenshots>
     <url type="homepage">https://onionshare.org/</url>
-    <updatecontact>micah@micahflee.com</updatecontact>
+    <updatecontact>t_chapman@bitmessage.ch</updatecontact>
 </component>

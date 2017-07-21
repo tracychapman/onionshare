@@ -184,7 +184,7 @@ class SettingsDialog(QtWidgets.QDialog):
 
         self.authenticate_password_extras = QtWidgets.QWidget()
         self.authenticate_password_extras.setLayout(authenticate_password_extras_layout)
-        self.authenticate_password_extras.hide()
+        #self.authenticate_password_extras.hide()
 
         # Authentication options layout
         authenticate_group_layout = QtWidgets.QVBoxLayout()

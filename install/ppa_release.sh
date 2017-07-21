@@ -10,7 +10,7 @@ cd $DIR
 VERSION=`cat share/version.txt`
 
 rm -rf deb_dist >/dev/null 2>&1
-python3 setup.py --command-packages=stdeb.command sdist_dsc
+python3.5 setup.py --command-packages=stdeb.command sdist_dsc
 cd deb_dist/onionshare-$VERSION
 dpkg-buildpackage -S
 cd ..

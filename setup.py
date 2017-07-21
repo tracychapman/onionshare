@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
 """
 OnionShare | https://onionshare.org/
@@ -40,9 +40,9 @@ long_description = description + " " + (
     """hidden service to make it temporarily accessible over the internet. The other user """
     """just needs to use Tor Browser to download the file from you."""
 )
-author = 'Micah Lee'
-author_email = 'micah@micahflee.com'
-url = 'https://github.com/micahflee/onionshare'
+author = 'MSJ 2018'
+author_email = '2018@msj.med'
+url = 'https://github.com/tracychapman/onionshare'
 license = 'GPL v3'
 keywords = 'onion, share, onionshare, tor, anonymous, web server'
 

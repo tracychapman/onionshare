@@ -55,7 +55,7 @@ if p == 'Darwin':
         coll,
         name='OnionShare.app',
         icon='install/onionshare.icns',
-        bundle_identifier='com.micahflee.onionshare',
+        bundle_identifier='local.msj2018.onionshare',
         info_plist={
             'CFBundleShortVersionString': version,
             'NSHighResolutionCapable': 'True'

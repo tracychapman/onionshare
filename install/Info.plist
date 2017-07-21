@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>onionshare-gui</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.micahflee.onionshare</string>
+	<string>local.msj2018.onionshare</string>
 	<key>NSHighResolutionCapable</key>
 	<true/>
 	<key>CFBundleShortVersionString</key>

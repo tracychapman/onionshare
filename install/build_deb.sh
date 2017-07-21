@@ -9,7 +9,7 @@ VERSION=`cat share/version.txt`
 rm -r deb_dist >/dev/null 2>&1
 
 # build binary package
-python3 setup.py --command-packages=stdeb.command bdist_deb
+python3.5 setup.py --command-packages=stdeb.command bdist_deb
 
 # return install instructions if onionshare builds properly
 if [[ $? -eq 0 ]]; then

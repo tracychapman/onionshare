@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
 """
 OnionShare | https://onionshare.org/
@@ -28,9 +29,9 @@ import inspect, os, sys, hashlib, zipfile, io, shutil, subprocess
 import urllib.request
 
 def main():
-    dmg_url = 'https://www.torproject.org/dist/torbrowser/6.5.2/TorBrowser-6.5.2-osx64_en-US.dmg'
-    dmg_filename = 'TorBrowser-6.5.2-osx64_en-US.dmg'
-    expected_dmg_sha256 = '0b11d12f9ff0d82ceb2a9a4dba9c4ba234da47640c8e25e76e4092a7d3a90ef6'
+    dmg_url = 'https://dist.torproject.org/torbrowser/7.5a2/TorBrowser-7.5a2-osx64_fr.dmg'
+    dmg_filename = 'TorBrowser-7.5a2-osx64_fr.dmg'
+    expected_dmg_sha256 = 'a576528ca927b21fe7124893d4ac4f274de0ecea8ca0b21a1d9af395cf86eb95'
 
     # Build paths
     root_path = os.path.dirname(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))))
